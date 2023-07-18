@@ -1,0 +1,206 @@
+/*body {
+  margin: 0;
+  padding: 0;
+}
+
+#invader {
+  background-color: rgb(120, 93, 219);
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.configuration {
+  background-color: rgb(58, 75, 168);
+  height: 20vh;
+}
+
+.case {
+  background-color: rgb(196, 196, 196);
+  width: 20px;
+  height: 20px;
+  border: 2px rgb(128, 128, 128) solid;
+}
+
+.line {
+  display: flex;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid black;
+}
+
+input {
+  border: none;
+  height: 45px;
+  width: 180px;
+  text-align: center;
+  margin-right: 2px;
+}
+
+#grid {
+  border-radius: 10px 0 0 10px;
+}
+
+input, button {
+  font-size: 16px;
+}
+
+button {
+  border: none;
+  background-color: rgb(177, 121, 230);
+  color: white;
+  height: 47px;
+  width: 100px;
+  border-radius: 0 10px 10px 0;
+}
+
+.black {
+  background-color: black;
+}
+
+.plain {
+  background-color: black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.empty {
+  background-color: rgb(196, 196, 196);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.light {
+  background-color: rgb(0, 255, 136);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+.highlight {
+  background-color:  rgb(255, 187, 0);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+#color-selection {
+  background: rgba(0, 0, 0, 0.329);
+  width: 180px;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}*/
+
+
+*{
+  box-sizing: border-box;
+}
+
+.configuration{
+  background-color: #3148ad;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input{
+  height: 45px;
+  padding: 5px 10px;
+  border: none;
+  margin-right: 2px;
+  width: 180px;
+  font-size: 16px;
+}
+
+.input--gridsize{
+  border-radius: 10px 0 0 10px;
+}
+
+.validate{
+  background-color: #9b68e4;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  height: 45px;
+  width: 100px;
+  color: lightgrey;
+  font-size: 16px;
+}
+
+#invader{
+  background-color: #6459cd;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{  
+}
+
+.line{
+  display: flex;
+  justify-content: center;
+} 
+
+.pixel{
+  background-color: #d2dae2;
+  border: solid 2px #808e9b;  
+}
+
+.pixel--empty{
+  background-color: #d2dae2;
+  border-color: #808e9b;
+}
+
+.stylepicker{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #4845a3;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style{
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.style--current{
+  width: 40px;
+  height: 40px;
+}
+
+.style--empty{
+  background-color: #d2dae2;
+  color: #808e9b;
+}
+
+.buttonColor, .inputColor{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
